@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 14.3-b01 (Sun Microsystems Inc.)
+Main-Class: apcon.APCONApp
+Class-Path: lib/appframework-1.0.3.jar lib/swing-worker-1.1.jar lib/to
+ plink-essentials.jar lib/toplink-essentials-agent.jar lib/beansbindin
+ g-1.2.1.jar lib/mysql-connector-java-5.1.6-bin.jar lib/gnujaxp.jar li
+ b/iText-2.1.5.jar lib/jcommon-1.0.16.jar lib/jfreechart-1.0.13-experi
+ mental.jar lib/jfreechart-1.0.13-swt.jar lib/jfreechart-1.0.13.jar li
+ b/junit.jar lib/servlet.jar lib/swtgraphics2d.jar lib/orson-0.5.0.jar
+X-COMMENT: Main-Class will be added automatically by build
+
