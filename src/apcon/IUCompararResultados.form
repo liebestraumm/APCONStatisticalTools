@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.6" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jButton1.text"/>
+        <Property name="name" type="java.lang.String" value="jButton1" noResource="true"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="0"/>
+    <Property name="title" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+      <Connection code="proy.getProyecto()" type="code"/>
+    </Property>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="297" max="-2" attributes="0"/>
+                      <Component id="jButtonProcesar" linkSize="2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButtonSalir" linkSize="2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel2" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jPanel1" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButtonSalir" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonProcesar" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Distribuci&#xf3;n de Weibull:">
+              <Property name="titleX" resourceKey="jPanel1.border.title"/>
+              <Property name="font" resourceKey="jPanel1.border.titleFont"/>
+              <Property name="color" resourceKey="jPanel1.border.titleColor"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabelVariable" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldVariable" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="361" max="32767" attributes="0"/>
+              </Group>
+              <Component id="jSeparator1" alignment="0" pref="507" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" max="-2" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" max="-2" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabelConfiabilidad" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextFieldConfiabilidad" linkSize="1" min="-2" pref="84" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabelMTBF" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextFieldMTBF" linkSize="3" min="-2" pref="116" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabelTasa" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextFieldTasa" linkSize="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabelDS" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextFieldDS" linkSize="3" min="-2" pref="99" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabelFalla" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextFieldFalla" linkSize="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabelDensidad" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextFieldDensidad" linkSize="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Component id="jSeparator2" alignment="1" pref="507" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
+              </Group>
+              <Component id="jSeparator3" alignment="0" pref="507" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jScrollPane1" pref="487" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabelBeta" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldBeta" linkSize="1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="120" max="32767" attributes="0"/>
+                          <Component id="jLabelEscala" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldEscala" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                          <Component id="jLabelPosicion" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextFieldPosicion" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="92" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jSeparator3" min="-2" pref="2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="jLabelBeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldBeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="jLabelEscala" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldEscala" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabelPosicion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldPosicion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" pref="2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelConfiabilidad" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldConfiabilidad" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelMTBF" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldMTBF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelFalla" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldFalla" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelDensidad" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldDensidad" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelTasa" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldTasa" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelDS" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldDS" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jSeparator2" min="-2" pref="2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jTextFieldVariable" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelVariable" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelBeta">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabelBeta.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelBeta.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelBeta" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldBeta">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextFieldBeta.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jTextFieldBeta.text"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldBeta" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelEscala">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabelEscala.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelEscala.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelEscala" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldEscala">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextFieldEscala.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jTextFieldEscala.text"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldEscala" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelPosicion">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabelPosicion.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelPosicion.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelPosicion" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelConfiabilidad">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabelConfiabilidad.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelConfiabilidad.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelConfiabilidad" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldConfiabilidad">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextFieldTasa.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jTextFieldConfiabilidad.text"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldConfiabilidad" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelFalla">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabelFalla.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelFalla.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelFalla" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldFalla">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextFieldTasa.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jTextFieldFalla.text"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldFalla" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelDensidad">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabelDensidad.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelDensidad.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelDensidad" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldDensidad">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextFieldTasa.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jTextFieldDensidad.text"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldDensidad" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelTasa">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabelTasa.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelTasa.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelTasa" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldTasa">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextFieldTasa.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jTextFieldTasa.text"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldTasa" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelMTBF">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabelMTBF.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelMTBF.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelMTBF" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldMTBF">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextFieldTasa.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jTextFieldMTBF.text"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldMTBF" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelDS">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabelDS.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelDS.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelDS" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldDS">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextFieldTasa.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jTextFieldDS.text"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldDS" noResource="true"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTableWeibull">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="0" rowCount="4"/>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="jTableWeibull" noResource="true"/>
+                <Property name="selectionModel" type="javax.swing.ListSelectionModel" editor="org.netbeans.modules.form.editors2.JTableSelectionModelEditor">
+                  <JTableSelectionModel selectionMode="0"/>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel11.font"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="jLabel11.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel11.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel11" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel13.font"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="jLabel13.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel13.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel13" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel14">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel14.font"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="jLabel14.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel14.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel14" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelVariable">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabelVariable.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelVariable.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelVariable" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldVariable">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextFieldTasa.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jTextFieldVariable.text"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldVariable" noResource="true"/>
+            <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="jButtonProcesar"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldVariableActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldVariableKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel1.font"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="jLabel1.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel1.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jSeparator1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator2">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jSeparator2" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator3">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jSeparator3" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldPosicion">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextFieldPosicion.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jTextFieldPosicion.text"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldPosicion" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="An&#xe1;lisis de Sobrevivencia Falla y Riesgo:">
+              <Property name="titleX" resourceKey="jPanel2.border.title"/>
+              <Property name="font" resourceKey="jPanel2.border.titleFont"/>
+              <Property name="color" resourceKey="jPanel2.border.titleColor"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabelGrafica" alignment="0" pref="420" max="32767" attributes="0"/>
+                      <Component id="jScrollPane2" alignment="0" pref="420" max="32767" attributes="0"/>
+                      <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" pref="92" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jLabelGrafica" pref="380" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelGrafica">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabelGrafica.font"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelGrafica.text"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Gr&#xe1;fica:">
+                  <Property name="titleX" resourceKey="jLabelGrafica.border.title"/>
+                  <Property name="font" resourceKey="jLabelGrafica.border.titleFont"/>
+                  <Property name="color" resourceKey="jLabelGrafica.border.titleColor"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="jLabelGrafica" noResource="true"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jScrollPane2" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTableSFR">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="0" rowCount="4"/>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="jTableSFR" noResource="true"/>
+                <Property name="selectionModel" type="javax.swing.ListSelectionModel" editor="org.netbeans.modules.form.editors2.JTableSelectionModelEditor">
+                  <JTableSelectionModel selectionMode="0"/>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabel12.font"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="jLabel12.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel12.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel12" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButtonSalir">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jButtonSalir.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="jButtonSalir.text"/>
+        <Property name="name" type="java.lang.String" value="jButtonSalir" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonSalir"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonProcesar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jButton2.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="jButtonProcesar.text"/>
+        <Property name="name" type="java.lang.String" value="jButtonProcesar" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="jTextFieldVariable"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonProcesar"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

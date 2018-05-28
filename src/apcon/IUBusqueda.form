@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JProgressBar" name="jProgressBar1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jProgressBar1" noResource="true"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanelPropiedadesProyecto" alignment="2" max="32767" attributes="0"/>
+                  <Group type="102" alignment="2" attributes="0">
+                      <Component id="jButtonCargar" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButtonModificar" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButtonSalvar" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButtonEliminar" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButtonCancelar" linkSize="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jPanelBuscador" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanelBuscador" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanelPropiedadesProyecto" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButtonCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonSalvar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonModificar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonCargar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="17" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanelPropiedadesProyecto">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Propiedades del Proyecto:">
+              <Property name="titleX" resourceKey="jPanelPropiedadesProyecto.border.title"/>
+              <Property name="font" resourceKey="jPanelPropiedadesProyecto.border.titleFont"/>
+              <Property name="color" resourceKey="jPanelPropiedadesProyecto.border.titleColor"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jPanelPropiedadesProyecto" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabelNombreAutor" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelApellidoAutor" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelIDAutor" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelNombreProyecto" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelPlanta" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelSubSistema" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelEquipo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jTextFieldNombreProyecto" linkSize="4" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jTextFieldNombreAutor" linkSize="4" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jTextFieldApellidoAutor" linkSize="4" alignment="0" min="-2" pref="148" max="-2" attributes="1"/>
+                      </Group>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jTextFieldEquipo" linkSize="4" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jTextFieldSubSistema" linkSize="4" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jTextFieldPlanta" linkSize="4" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jTextFieldIDAutor" linkSize="4" alignment="0" min="-2" pref="58" max="-2" attributes="1"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel1" max="32767" attributes="0"/>
+                      <Component id="jPanelDescripcion" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jPanelDescripcion" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNombreProyecto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldNombreProyecto" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNombreAutor" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldNombreAutor" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelApellidoAutor" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldApellidoAutor" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="6" pref="6" max="6" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelIDAutor" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldIDAutor" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelPlanta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldPlanta" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelSubSistema" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldSubSistema" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextFieldEquipo" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelEquipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanelDescripcion">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Descripci&#xf3;n:">
+                  <Property name="titleX" resourceKey="jPanelDescripcion.border.title"/>
+                  <Property name="font" resourceKey="jPanelDescripcion.border.titleFont"/>
+                  <Property name="color" resourceKey="jPanelDescripcion.border.titleColor"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="jPanelDescripcion" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" pref="296" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane2" min="-2" pref="116" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane2" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextPane" name="jTextPaneDescripcion">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" resourceKey="jTextPaneDescripcion.background"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                        <MatteColorBorder/>
+                      </Border>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" resourceKey="jTextPaneDescripcion.font"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="jTextPaneDescripcion.toolTipText"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="name" type="java.lang.String" value="jTextPaneDescripcion" noResource="true"/>
+                    <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                      <ComponentRef name="jButtonSalvar"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextPaneDescripcionKeyTyped"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabelNombreProyecto">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jButtonSalvar.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelNombreProyecto.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelNombreProyecto" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelNombreAutor">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jButtonSalvar.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelNombreAutor.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelNombreAutor" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelApellidoAutor">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jButtonSalvar.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelApellidoAutor.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelApellidoAutor" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelIDAutor">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jButtonSalvar.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelIDAutor.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelIDAutor" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelPlanta">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jButtonSalvar.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelPlanta.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelPlanta" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelSubSistema">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jButtonSalvar.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelSubSistema.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelSubSistema" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelEquipo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jButtonSalvar.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelEquipo.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelEquipo" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldPlanta">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextPaneDescripcion.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jTextFieldPlanta.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="jTextFieldPlanta.toolTipText"/>
+            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldPlanta" noResource="true"/>
+            <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="jTextFieldSubSistema"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPlantaActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldPlantaKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldSubSistema">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextPaneDescripcion.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jTextFieldSubSistema.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="jTextFieldSubSistema.toolTipText"/>
+            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldSubSistema" noResource="true"/>
+            <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="jTextFieldEquipo"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldSubSistemaActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldSubSistemaKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldEquipo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextPaneDescripcion.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jTextFieldEquipo.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="jTextFieldEquipo.toolTipText"/>
+            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldEquipo" noResource="true"/>
+            <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="jTextPaneDescripcion"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldEquipoActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldEquipoKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldIDAutor">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextPaneDescripcion.font"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="jTextFieldIDAutor.toolTipText"/>
+            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldIDAutor" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldIDAutorActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldIDAutorKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldNombreProyecto">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextPaneDescripcion.font"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="jTextFieldNombreProyecto.toolTipText"/>
+            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldNombreProyecto" noResource="true"/>
+            <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="jTextFieldNombreAutor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldNombreProyectoActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldNombreProyectoKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldNombreAutor">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextPaneDescripcion.font"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="jTextFieldNombreAutor.toolTipText"/>
+            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldNombreAutor" noResource="true"/>
+            <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="jTextFieldApellidoAutor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldNombreAutorActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldNombreAutorKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldApellidoAutor">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextPaneDescripcion.font"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="jTextFieldApellidoAutor.toolTipText"/>
+            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldApellidoAutor" noResource="true"/>
+            <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="jTextFieldPlanta"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldApellidoAutorActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldApellidoAutorKeyTyped"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="M&#xe9;todos Utillizados:">
+                  <Property name="titleX" resourceKey="jPanel1.border.title"/>
+                  <Property name="font" resourceKey="jPanel1.border.titleFont"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jCheckBoxWeibull" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCheckBoxSFR" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="43" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jCheckBoxWeibull" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jCheckBoxSFR" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JCheckBox" name="jCheckBoxWeibull">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="jCheckBoxWeibull.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="jCheckBoxWeibull.text"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="jCheckBoxWeibull" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jCheckBoxSFR">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="jCheckBoxSFR.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="jCheckBoxSFR.text"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="jCheckBoxSFR" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButtonEliminar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jButtonSalvar.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="jButtonEliminar.text"/>
+        <Property name="toolTipText" type="java.lang.String" resourceKey="jButtonEliminar.toolTipText"/>
+        <Property name="name" type="java.lang.String" value="jButtonEliminar" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonEliminar"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonModificar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jButtonSalvar.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="jButtonModificar.text"/>
+        <Property name="toolTipText" type="java.lang.String" resourceKey="jButtonModificar.toolTipText"/>
+        <Property name="name" type="java.lang.String" value="jButtonModificar" noResource="true"/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="jTextFieldNombreProyecto"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonModificar"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonCancelar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jButtonSalvar.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="jButtonCancelar.text"/>
+        <Property name="toolTipText" type="java.lang.String" resourceKey="jButtonCancelar.toolTipText"/>
+        <Property name="name" type="java.lang.String" value="jButtonCancelar" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonCancelar"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonSalvar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jButtonSalvar.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="jButtonSalvar.text"/>
+        <Property name="toolTipText" type="java.lang.String" resourceKey="jButtonSalvar.toolTipText"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="jButtonSalvar" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonSalvar"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanelBuscador">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Buscador:">
+              <Property name="titleX" resourceKey="jPanelBuscador.border.title"/>
+              <Property name="font" resourceKey="jPanelBuscador.border.titleFont"/>
+              <Property name="color" resourceKey="jPanelBuscador.border.titleColor"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jPanelBuscador" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabelIDAutorB" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelNombreProyectoB" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jTextFieldIDAutorB" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jTextFieldNombreProyectoB" alignment="0" min="-2" pref="148" max="-2" attributes="1"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jButtonBuscar2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonBuscar1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jPanelProyectos" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="2" attributes="0">
+                      <Group type="102" alignment="2" attributes="0">
+                          <Component id="jButtonBuscar1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="6" pref="6" max="6" attributes="0"/>
+                          <Component id="jButtonBuscar2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="2" attributes="0">
+                          <Component id="jTextFieldIDAutorB" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                          <Component id="jTextFieldNombreProyectoB" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="2" attributes="0">
+                          <Component id="jLabelIDAutorB" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="15" pref="15" max="15" attributes="0"/>
+                          <Component id="jLabelNombreProyectoB" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jPanelProyectos" alignment="2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelIDAutorB">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabelNombreProyectoB.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelIDAutorB.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelIDAutorB" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelNombreProyectoB">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jLabelNombreProyectoB.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabelNombreProyectoB.text"/>
+            <Property name="name" type="java.lang.String" value="jLabelNombreProyectoB" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldIDAutorB">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextPaneDescripcion.font"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="jTextFieldIDAutorB.toolTipText"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldIDAutorB" noResource="true"/>
+            <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="jButtonBuscar1"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldIDAutorBActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldIDAutorBKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldNombreProyectoB">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jTextPaneDescripcion.font"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="jTextFieldNombreProyectoB.toolTipText"/>
+            <Property name="name" type="java.lang.String" value="jTextFieldNombreProyectoB" noResource="true"/>
+            <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="jButtonBuscar2"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldNombreProyectoBActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldNombreProyectoBKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonBuscar1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jButtonSalvar.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jButtonBuscar1.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="jButtonBuscar1.toolTipText"/>
+            <Property name="name" type="java.lang.String" value="jButtonBuscar1" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonBuscar1"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonBuscar2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="jButtonSalvar.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="jButtonBuscar2.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="jButtonBuscar2.toolTipText"/>
+            <Property name="name" type="java.lang.String" value="jButtonBuscar2" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonBuscar2"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanelProyectos">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Proyectos:">
+                  <Property name="titleX" resourceKey="jPanelProyectos.border.title"/>
+                  <Property name="font" resourceKey="jPanelProyectos.border.titleFont"/>
+                  <Property name="color" resourceKey="jPanelProyectos.border.titleColor"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="jPanelProyectos" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="217" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane1" pref="92" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JList" name="jListProyectos">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                        <LineBorder/>
+                      </Border>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" resourceKey="jTextPaneDescripcion.font"/>
+                    <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                      <StringArray count="0"/>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="jListProyectos.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="jListProyectos" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseReleased" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="listaProyectos"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButtonCargar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jButtonSalvar.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="jButtonCargar.text"/>
+        <Property name="toolTipText" type="java.lang.String" resourceKey="jButtonCargar.toolTipText"/>
+        <Property name="name" type="java.lang.String" value="jButtonCargar" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonCargar"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
